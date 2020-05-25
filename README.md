@@ -13,6 +13,12 @@
   chmod +x create-venv.sh
 
   sudo ./create-venv.sh test - test name project directory
+  
+  cd test
+  
+  source test/bin/activate
+  
+  Work ... ;)
 
 <h2> Example for Windows </h2>
 
@@ -27,3 +33,7 @@ For example Windows:
   Run in cmd.exe:
   
   create-venv.bat test - test name project directory
+  
+  venv\Scripts\activate.bat
+  
+  Work ... ;)
