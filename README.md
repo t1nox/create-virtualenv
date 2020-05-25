@@ -2,17 +2,19 @@
 
 <h1> Both scripts take one argument </h1>
 
-<h2> For example Linux: </h2>
+<h2> Example for Linux: </h2>
 
   cd /home/you-profile/directory/or/directory/all-projects/
 	
   git clone https://github.com/t1nox/create-virtualenv.git
 
   and run in terminal : 
+  
+  chmod +x create-venv.sh
 
-sudo ./create-venv.sh test - test name project directory
+  sudo ./create-venv.sh test - test name project directory
 
-<h2> For example for Windows </h2>
+<h2> Example for Windows </h2>
 
 For example Windows:
 
